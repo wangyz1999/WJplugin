@@ -1,0 +1,10 @@
+name: HelloPlugin
+version: 1.0
+author: WJ
+main: WJ.games.haha.Main
+description: Tutorial!
+
+commands:
+    hello:
+        aliases: [hi]
+        usage: /<command>
