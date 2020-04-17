@@ -1,10 +1,21 @@
 name: HelloPlugin
 version: 1.0
+api-version: 1.15
 author: WJ
 main: WJ.games.haha.Main
 description: Tutorial!
 
 commands:
     hello:
+        description: say hello to the server
         aliases: [hi]
         usage: /<command>
+        
+    tictactoe:
+        description: create or remove a tic tac toe board
+        aliases: [ttt]
+        usage: |
+               /<command> create name [ai | pvp] [strong | weak] [first | second]
+               /<command> activate [name] [pos]
+               /<command> deactivate [name]
+               /<command> delete [name]

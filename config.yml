@@ -1,0 +1,7 @@
+board1:
+    isActivated: false
+    isAI: true
+    strongAI: true
+    playerFirst: true
+    x: 0
+    z: 0
